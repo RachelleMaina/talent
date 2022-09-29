@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400');
+@import url('http://fonts.cdnfonts.com/css/satoshi');
+nav{background: #333333;
+padding:15px
+}
+.nav_wrapper{
+    padding:0;
+}
+.logo{
+    height:34px;
+    width:104px;
+}
+.talent{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 20px;
+line-height: 23px;
+color: #FFFFFF;
+margin-left: -3px;
+}
+.linkedin{
+    width:24px;
+    height:24px;
+    margin-right: 20px;
+}
+.connect_with_us:link, .connect_with_us:visited, .connect_with_us:hover, .connect_with_us:active{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 16px;
+color: #FFFFFF;
+text-decoration-line:underline;
+}
+.nav_container{
+    background: #333333;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+
+}
+.header{
+    background-color:  #F7FDF9;
+padding:50px 0 30px 0;
+}
+.header_container{
+    width: 50%;
+}
+.header-title{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 900;
+font-size: 27px;
+color: rgba(0, 0, 0, 0.84);
+margin-bottom:0;
+}
+.header_description{
+    font-family: 'Satoshi';
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 24px;
+color: rgba(0, 0, 0, 0.84);
+margin-top: 20px;
+}
+.departments{
+    margin:20px 0;
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+}
+.all_departments{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+padding: 10px 20px;
+width: 180px;
+height: 42px;
+background: rgba(0, 0, 0, 0.74);
+border-radius: 4px;
+}
+.all_departments_department_name{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+line-height: 14px;
+color: #FFFFFF;
+}
+.department{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 10px 20px;
+width: fit-content;
+height: 42px;
+background: #FFFFFF;
+border: 2px solid #333333;
+border-radius: 4px;
+}
+.departments_department_name{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+color: rgba(0, 0, 0, 0.84);
+
+}
+.people{
+
+}
+.image_container{}
+.profile_pic{
+width:260px;
+height:300px;
+border-radius: 4px
+}
+.profile_pic img{
+width:100%;
+}
+.name{
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 800;
+font-size: 18px;
+color: rgba(0, 0, 0, 0.84);
+margin: 5px 0;
+}
+.job_title{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 900;
+font-size: 12px;
+color: rgba(0, 0, 0, 0.84);
+}
+.cart_button{
+    display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: left;
+padding: 10px 20px;
+width: 176px;
+height: 40px;
+background: rgba(0, 0, 0, 0.74);
+border-radius: 4px;
+}
+.add_to_cart{
+font-family: 'Satoshi';
+font-style: normal;
+font-weight: 900;
+font-size: 10px;
+line-height: 14px;
+letter-spacing: 0.1em;
+text-transform: uppercase;
+color: #FFFFFF;
+margin-left: 10px;
+}
+.top-spacer { margin-top:50px; }
